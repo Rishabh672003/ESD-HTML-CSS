@@ -1,8 +1,8 @@
 # ESD-HTML-CSS
 
-ESD IP HTML CSS NOTES
+### ESD IP HTML CSS NOTES
 
-Content:
+**Content:**
 
 - 01_basic.html
 - 02_heading.html
@@ -12,3 +12,5 @@ Content:
 - 06_backgroundImage.html
 - 07_ table.html
 - 08_lists.html
+- 09_block.html
+- 10_navigationBar.html

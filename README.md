@@ -7,7 +7,6 @@
 - assets
   - images
 
-<br>
 
 - src
   - 01_basic.html

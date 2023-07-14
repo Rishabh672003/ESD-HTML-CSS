@@ -9,14 +9,13 @@
 </head>
 
 <body>
-  <p onmouseenter="min(this)" onmouseleave="mOut(that)">You are...</p>
-  <script>
-    function min(ele) {
-      ele.innerHTML = 'gay'
-    }
+  <p id="paraId">this is a para</p>
 
-    function mOut(ele) {
-      ele.innerHTML = 'You are...'
+  <button onclick="changeText()">Change Text</button>
+
+  <script>
+    function changeText() {
+      document.getElementById('paraId').innerHTML = 'this is another para'
     }
   </script>
 </body>

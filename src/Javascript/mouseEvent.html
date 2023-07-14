@@ -9,10 +9,16 @@
 </head>
 
 <body>
-  <p ondblclick="changeText(this)">This is a para</p>
+  <p onmouseenter="min(this)" onmouseleave="mOut(that)">
+  You are...
+  </p>
   <script>
-    function changeText(ele) {
-      ele.innerHTML = 'This is replace para'
+    function min(ele){
+      ele.innerHTML = 'gay'
+    }
+
+    function mOut(ele){
+      ele.innerHTML = 'You are...'
     }
   </script>
 </body>

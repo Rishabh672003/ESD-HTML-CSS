@@ -1,27 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <title></title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="css/style.css" rel="stylesheet" />
-</head>
-
-<body>
-  <p class="para">First para</p>
-  <p>second para</p>
-  <p class="para">Third para</p>
-  <p class="para">Forth para</p>
-  <button onclick="change">click me</button>
-  <script>
-    const paras = document.getElementsByClassName('para')
-    function onclick() {
-      for (let i = 0; i < paras.length; i++) {
-        paras[i].innerHTML = 'Para No.' + (i + 1)
+  <body>
+    <p class="para">First para</p>
+    <p>second para</p>
+    <p class="para">Third para</p>
+    <p class="para">Forth para</p>
+    <button onclick="change">click me</button>
+    <script>
+      const paras = document.getElementsByClassName("para");
+      function onclick() {
+        for (let i = 0; i < paras.length; i++) {
+          paras[i].innerHTML = "Para No." + (i + 1);
+        }
       }
-    }
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>

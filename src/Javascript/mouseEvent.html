@@ -1,24 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <title></title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="css/style.css" rel="stylesheet" />
-</head>
+  <body>
+    <p onmouseenter="min(this)" onmouseleave="mOut(that)">You are...</p>
+    <script>
+      function min(ele) {
+        ele.innerHTML = "gay";
+      }
 
-<body>
-  <p onmouseenter="min(this)" onmouseleave="mOut(that)">You are...</p>
-  <script>
-    function min(ele) {
-      ele.innerHTML = 'gay'
-    }
-
-    function mOut(ele) {
-      ele.innerHTML = 'You are...'
-    }
-  </script>
-</body>
-
+      function mOut(ele) {
+        ele.innerHTML = "You are...";
+      }
+    </script>
+  </body>
 </html>

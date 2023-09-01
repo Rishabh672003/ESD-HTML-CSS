@@ -5,8 +5,8 @@
 **Content:**
 
 - assets
-  - images
 
+  - images
 
 - src
   - 01_basic.html

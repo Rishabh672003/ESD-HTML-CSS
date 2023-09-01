@@ -1,68 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
     <style>
-        .form {
-            width: max-content;
-            padding: 15px;
-            display: flex;
-            margin-top: 50px;
-            border: 1px solid red;
-            border-radius: 1em;
-        }
+      .form {
+        width: max-content;
+        padding: 15px;
+        display: flex;
+        margin-top: 50px;
+        border: 1px solid red;
+        border-radius: 1em;
+      }
 
-        .formItem {
-            margin-left: 9px;
-        }
+      .formItem {
+        margin-left: 9px;
+      }
 
-        input[type="text"] {
-            outline: none;
-            border: none;
-            border-bottom: 1px solid red;
-        }
+      input[type="text"] {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid red;
+      }
 
-        label {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
+      label {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
 
-        .btns {
-            display: flex;
-            gap: 1em;
-            align-items: center;
-            justify-content: center;
-        }
+      .btns {
+        display: flex;
+        gap: 1em;
+        align-items: center;
+        justify-content: center;
+      }
 
-        .btn {
-            cursor: pointer;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 1em;
-            background-color: rgb(255, 58, 58);
-            color: antiquewhite;
-        }
+      .btn {
+        cursor: pointer;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 1em;
+        background-color: rgb(255, 58, 58);
+        color: antiquewhite;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="form">
-        <form action="/action.php">
-            <div class="formItem">
-                <label style="font-size: large;" for="fname">First Name: </label><br>
-                <input type="text" name="fname" id="fname" value="" requrired>
-                <br><br>
-                <label style="font-size: large;" for="lname">Last Name: </label><br>
-                <input type="text" name="fname" id="lname" value="" requrired>
-                <br><br>
-            </div>
-            <div class="btns">
-                <input class="btn" type="submit" value="submit">
-                <input class="btn" type="reset" value="Reset">
-            </div>
-        </form>
+      <form action="/action.php">
+        <div class="formItem">
+          <label style="font-size: large" for="fname">First Name: </label><br />
+          <input type="text" name="fname" id="fname" value="" requrired />
+          <br /><br />
+          <label style="font-size: large" for="lname">Last Name: </label><br />
+          <input type="text" name="fname" id="lname" value="" requrired />
+          <br /><br />
+        </div>
+        <div class="btns">
+          <input class="btn" type="submit" value="submit" />
+          <input class="btn" type="reset" value="Reset" />
+        </div>
+      </form>
     </div>
 
     <!-- 
@@ -93,6 +92,5 @@ ALL INPUT TYPES:
 <input type="image" src="image.png" alt="Image input"><br>
 <textarea placeholder="Textarea input"></textarea><br>
  -->
-</body>
-
+  </body>
 </html>

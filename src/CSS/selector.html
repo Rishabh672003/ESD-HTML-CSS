@@ -1,60 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <title>Selector</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="bootstrap.css" rel="stylesheet" />
+    <style>
+      h2 {
+        color: red;
+      }
 
-<head>
-  <title>Selector</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="bootstrap.css" rel="stylesheet" />
-  <style>
-    h2 {
-      color: red;
-    }
+      h3 {
+        color: orange;
+      }
 
-    h3 {
-      color: orange;
-    }
+      /* class selector */
+      .para {
+        font-size: larger;
+      }
 
-    /* class selector */
-    .para {
-      font-size: larger;
-    }
+      /* ID selector */
+      #para {
+        font-size: medium;
+      }
 
-    /* ID selector */
-    #para {
-      font-size: medium;
-    }
+      /* combinator CSS */
+      p.comb,
+      p#comb {
+        color: blue;
+      }
 
-    /* combinator CSS */
-    p.comb,
-    p#comb {
-      color: blue;
-    }
+      /* univeral CSS */
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-    /* univeral CSS */
-    * {
-      font-family: Arial, Helvetica, sans-serif;
-    }
+      div > p {
+        color: red;
+      }
+    </style>
+  </head>
 
-    div > p {
-      color: red;
-    }
-  </style>
-</head>
-
-<body>
-  <h2>this is a h2 tag</h2>
-  <h3>this is a h3 tag</h3>
-  <p class="para">this is a paragraph for class</p>
-  <p id="para">this is a paragraph for id</p>
-  <p class="comb">Heading text</p>
-  <p id="comb">paragraph</p>
-  <div style="width: 100%; border: 1px solid black">
-    <span>
-      hi
-    </span>
-    <p>this para is in div block</p>
-  </div>
-</body>
-
+  <body>
+    <h2>this is a h2 tag</h2>
+    <h3>this is a h3 tag</h3>
+    <p class="para">this is a paragraph for class</p>
+    <p id="para">this is a paragraph for id</p>
+    <p class="comb">Heading text</p>
+    <p id="comb">paragraph</p>
+    <div style="width: 100%; border: 1px solid black">
+      <span> hi </span>
+      <p>this para is in div block</p>
+    </div>
+  </body>
 </html>
